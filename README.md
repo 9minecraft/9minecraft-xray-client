@@ -19,6 +19,23 @@ The NeoForge and Fabric builds exist because most people asked for the same thin
 mods they already play with, and add this on top. Those builds are ordinary mods — they load
 from the `mods` folder like anything else, and they coexist with Sodium.
 
+## Versions
+
+Builds are kept for the releases people still play, not only the newest one.
+
+| Minecraft | Minecraft | Minecraft |
+|---|---|---|
+| 26.3 | 1.21.8 | 1.19.2 |
+| 26.2 | 1.21.5 | 1.18.2 |
+| 26.1.2 | 1.21.4 | 1.16.5 |
+| 1.21.11 | 1.21.1 | 1.12.2 |
+| 1.21.10 | 1.20.1 | 1.8.9 |
+
+## Requires
+
+- **Java or JDK 21+** for the recent releases; older builds run on the Java their own release
+  shipped with.
+
 ## On this repository
 
 This is a maintained in-house product rather than a port, so the source is not mirrored here.
