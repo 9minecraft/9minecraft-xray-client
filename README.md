@@ -1,59 +1,40 @@
-# 9minecraft Xray Client (26.3, 1.20.1) - The #1 Ore Finder of 2026
+# XRay Client
 
-**Mod for Minecraft 1.8.9, 1.12.2, 1.16.5, 1.18.2, 1.19.2, 1.20.1, 1.21.1, 1.21.4, 1.21.5, 1.21.8, 1.21.10, 1.21.11, 26.1.2, 26.2, 26.3** — Fabric / NeoForge build, maintained by [9Minecraft Studios](https://www.9minecraft.net/).
+A mining aid that hides the blocks you do not care about. Stone, dirt and gravel stop being
+drawn; ores, chests and whatever else you put on the list stay visible, hanging in the dark
+where they actually are. Turn it off and the world fills back in.
 
-[![Download](https://img.shields.io/badge/Download-9Minecraft.net-2ea44f?style=for-the-badge&logo=minecraft&logoColor=white)](https://9minecraft.net/9minecraft-xray-client/)
+Because it works by skipping blocks at the point the chunk mesh is built, the world itself is
+untouched — nothing is changed on disk, and switching back is instant.
 
-> ➤ **Download:** https://9minecraft.net/9minecraft-xray-client/
+## What is in the build
 
-This repository is **documentation only** — it holds no mod files and no source code. Everything that can be downloaded lives on the page linked above.
+- a block list you edit in game, with a search box rather than a config file
+- fullbright, so the caves you just revealed are not pitch black
+- a small coordinate and biome readout, if you want it
+- an installer that writes a launcher profile for you, with Standalone, NeoForge and Fabric
+  options so it can sit alongside a modpack instead of replacing it
 
-## About this mod
+The NeoForge and Fabric builds exist because most people asked for the same thing: keep the
+mods they already play with, and add this on top. Those builds are ordinary mods — they load
+from the `mods` folder like anything else, and they coexist with Sodium.
 
-9minecraft Xray Client lets you see right through normal blocks like dirt and stone to find hidden ores, chests, and dungeons. It gives you a clear view of the underground world from the surface so you never miss valuable items. This client runs on its own without needing extra mod loaders, keeping your normal game files completely safe. You get a built-in menu to pick exactly which blocks you want to hide or show.
+## On this repository
 
-## What this is
+This is a maintained in-house product rather than a port, so the source is not mirrored here.
+Build notes, the block-list format and the installer's behaviour are documented on the product
+page; questions and bug reports are welcome at **9minecraft.net@gmail.com**.
 
-A build maintained by 9Minecraft Studios so this mod runs on current Minecraft releases.
+## Where to get it
 
-## Builds available
+Installer, the three loader options, and the setup walkthrough are here:
+[9minecraft.net/9minecraft-xray-client](https://www.9minecraft.net/9minecraft-xray-client/)
 
-| | |
-|---|---|
-| Minecraft | 1.8.9, 1.12.2, 1.16.5, 1.18.2, 1.19.2, 1.20.1, 1.21.1, 1.21.4, 1.21.5, 1.21.8, 1.21.10, 1.21.11, 26.1.2, 26.2, 26.3 |
-| Loader | Fabric, NeoForge |
-| Type | mod |
-| Licence | ARR |
+## A note on where to use it
 
-## Screenshots
-
-![9minecraft Xray Client (26.3, 1.20.1) - The #1 Ore Finder of 2026 — cover](https://www.9minecraft.net/wp-content/uploads/2026/05/9minecraft-Xray-Client-Thumbnail.jpg)
-
-![9minecraft Xray Client (26.3, 1.20.1) - The #1 Ore Finder of 2026 — screenshot 2](https://www.9minecraft.net/wp-content/uploads/2026/05/9minecraft-Xray-Client-Screenshots-1.png)
-
-![9minecraft Xray Client (26.3, 1.20.1) - The #1 Ore Finder of 2026 — screenshot 3](https://www.9minecraft.net/wp-content/uploads/2026/05/9minecraft-Xray-Client-Screenshots-2.png)
-
-## Source code
-
-The port source is not published here. If you need it — for review, for a fork, or to build it yourself — email **9minecraft.net@gmail.com** and we will send it over.
-
-## On the download page
-
-The repository stops here. These live on the download page:
-
-- the build itself — every supported Minecraft version and loader
-- step-by-step install instructions
-- the full screenshot gallery
-- what changed in each release
-- the mods this one needs alongside it, if any
-
-➤ **https://9minecraft.net/9minecraft-xray-client/**
+Plenty of servers treat this kind of tool as cheating, and some ban for it. On your own worlds
+and on servers that allow it, enjoy; everywhere else, read the rules first. That is on you.
 
 ## Credits
 
-- This port: **9Minecraft Studios** — https://www.9minecraft.net/
-- Licence: ARR (original licence text ships inside the download)
-
----
-
-<sub>Minecraft XRay · Minecraft 1.8.9 Clients · Minecraft 1.18.2 Clients · Minecraft 1.12.2 Clients · Minecraft 1.16.5 Clients · Minecraft 1.19.2 Clients · Minecraft 1.20.1 Clients · Minecraft 1.21.1 Clients · Minecraft 1.21.4 Clients · Minecraft 1.21.5 Clients · Minecraft 1.21.8 Clients · Minecraft 1.21.10 Clients</sub>
+Built and maintained by 9Minecraft Studios.
